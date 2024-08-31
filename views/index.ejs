@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/public/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <ul>
+        <% for (let i = 0; i < listadoHeroes.length; i++) { %>
+            <li><%= listadoHeroes[i].nombre %></li>
+        <% } %>
+    </ul>
+</body>
+</html>
